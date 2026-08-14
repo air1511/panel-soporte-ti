@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Panel de Control de Soporte TI</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+
+<h1>UDEMEX</h1>    
+<h1>Panel de Control de Soporte TI</h1>
+
+    <input type="text" id="txtTicket" placeholder="Descripción del ticket">
+
+    <button id="btnAgregar">
+        Agregar Ticket
+    </button>
+
+    <ul id="listaTickets"></ul>
+
+    <script src="js/app.js"></script>
+
+<table border="1">
+
+<tr>
+    <th>Métrica</th>
+    <th>Valor</th>
+</tr>
+
+<tr>
+    <td>Tickets Abiertos</td>
+    <td>15</td>
+</tr>
+
+<tr>
+    <td>Tickets Cerrados</td>
+    <td>34</td>
+</tr>
+
+<tr>
+    <td>Incidentes Críticos</td>
+    <td>2</td>
+</tr>
+
+</table>
+
+Caracteres:
+<span id="contador">0</span>
+<p id="mensajeTecla"></p>
+
+</body>
+</html>
